@@ -2,7 +2,6 @@
 
 from tkinter import *
 from tkinter.filedialog import *
-from tkinter import ttk
 
 filename = None
 
@@ -26,6 +25,7 @@ def FontCourier():
 # LOGIC  _________________________
 
 def saveFile():
+    # NEED REDO
     global text
 
     t = text.get(0.0, END)
