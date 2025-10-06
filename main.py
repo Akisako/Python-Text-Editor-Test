@@ -5,13 +5,6 @@ from tkinter.filedialog import *
 
 filename = None
 
-root = Tk("Text Editor")
-
-root.title("Text Editor | Python")
-root.minsize(width=460, height=400)
-root.maxsize(width=460, height=400)
-
-
 # Font  ___________________________
 
 def FontHelvetica():
@@ -57,6 +50,14 @@ def openFile():
     text.insert(0.0, t)
 
 # main  __________________________________________________
+
+root = Tk("Text Editor")
+
+root.title("Text Editor | Python")
+root.minsize(width=460, height=400)
+root.maxsize(width=460, height=400)
+
+
 
 menubar = Menu(root)
 filemenu = Menu(menubar, tearoff=0)
